@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
